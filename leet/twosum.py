@@ -11,4 +11,4 @@ def twoSum(n):
             
 
 n = int(input("Enter the count of the list:"))
-twoSum(n+2)
+twoSum(n+3)
