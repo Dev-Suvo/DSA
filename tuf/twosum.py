@@ -1,14 +1,14 @@
-def twoSum(n):
-        lst = []
-        while(n>0):
-            num = int(input("Enter the numbers:"))
-            lst.append(num)
-            n-=1
-        
-        target=int(input("Enter target value:"))
-        print(lst, type(lst))
+class Solution:
+    def twoSum(self,arr, target):
+        seen = {} 
+
+        for i in range(len(arr)):
+            current = arr[i]
+            needed = target - current
+
+            if needed in seen:
+                return [seen[needed], i]
+
+            seen[current] = i
 
             
-
-n = int(input("Enter the count of the list:"))
-twoSum(n+3
