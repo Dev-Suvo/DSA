@@ -14,4 +14,3 @@ class Solution:
             right_product *= nums[i]
 
         return ans        
-    #code added
