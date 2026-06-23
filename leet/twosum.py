@@ -1,14 +1,11 @@
 class Solution:
-    def twoSum(self,arr, target):
-        seen = {} 
+    def twoSum(self, nums: List[int], target: int) -> List[int]:        
+        prvhash={}
 
-        for i in range(len(arr)):
-            current = arr[i]
-            needed = target - current
+        for idx, i in enumerate(nums):
+            diff = target - i
 
-            if needed in seen:
-                return [seen[needed], i]
+            if diff in prvhash:
+                return [prvhash[diff], idx]
 
-            seen[current] = i
-
-            
+            prvhash[i]=idx
