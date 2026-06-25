@@ -6,3 +6,4 @@ class Solution:
             key = "".join(sorted(s))
             groups[key].append(s)
 
+        return list(groups.values())    
