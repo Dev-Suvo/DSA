@@ -8,4 +8,4 @@ class Solution:
             if diff in prvhash:
                 return [prvhash[diff], idx]
 
-            prvhash[i]=idx
+            prvhash[i]=
