@@ -4,6 +4,6 @@ class Solution:
 
         for s in strs:
             key = "".join(sorted(s))
-            grp[key].append(s)
+            grp[key].append
 
         return list(grp.values())    
