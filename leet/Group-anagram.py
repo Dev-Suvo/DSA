@@ -7,4 +7,3 @@ class Solution:
         map[key].append(s)
 
        return list(map.values())
-#code
