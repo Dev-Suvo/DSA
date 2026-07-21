@@ -9,4 +9,3 @@ class Solution:
             cs[s[i]] = cs.get(s[i], 0) +1
             ct[t[i]] = ct.get(t[i], 0) +1
 
-        return cs == ct
