@@ -8,4 +8,4 @@ class Solution:
             if diff in map:
                 return [idx, map[diff]]
 
-            map[val] =idx    
+            map[val] 
