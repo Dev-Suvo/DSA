@@ -20,4 +20,4 @@ class Solution:
                 col[c].append(board[r][c])
                 sq[(r//3,c//3)].append(board[r][c])
 
-        return True        
+        return True
