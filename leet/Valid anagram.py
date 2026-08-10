@@ -1,12 +1,12 @@
 class Solution:
     def isAnagram(self, s: str, t: str) -> bool:
         if len(s) != len(t):
-            return False
+            return Flase
 
-        cs , ct = {} , {}
+        mapS, mapT = {},{}    
 
         for i in range(len(s)):
-            cs[s[i]] = cs.get(s[i],0)+1    
-            ct[t[i]] = ct.get(t[i],0)+1
+            mapS[s[i]] = mapS.get(s[i],0)+1
+            mapT[t[i]] = mapT.get(t[i],0)+1
 
-        return cs == ct 
+        return mapS == mapT
