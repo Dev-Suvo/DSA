@@ -7,14 +7,14 @@ class Solution:
       for n in nums:
         map[n] = map.get(n,0)+1
 
-      for c, v in map.items():
-        frq[v].append(c)
+      for key, val in map.items():
+        frq[val].append(key)
 
-      res =[]
+      res = []
 
-      for i in range(len(frq)-1,0,-1):
+      for i in range(len(frq)-1,-1,-1):
         for n in frq[i]:
             res.append(n)
 
             if len(res) == k:
-                return res    
+                return res
