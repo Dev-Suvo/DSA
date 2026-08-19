@@ -7,3 +7,4 @@ class Solution:
             news += c.lower()
 
        return news == news[::-1]
+    #done
