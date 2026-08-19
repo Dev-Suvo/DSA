@@ -6,4 +6,4 @@ class Solution:
         if c.isalnum():
             news += c.lower()
 
-       return news == news[::-1]
+       return news == news[::-1
