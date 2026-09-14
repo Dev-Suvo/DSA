@@ -6,3 +6,5 @@ user = {
 function APIDATA(api) {
     return `Name is ${api.name} and age is ${api.age}`
 }
+
+console.log(APIDATA(user));
