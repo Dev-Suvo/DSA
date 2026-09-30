@@ -13,4 +13,7 @@ const JsUser = {
 }
 
 
-J
+JsUser.greeting = function () {
+    console.log(JsUser);
+}
+
