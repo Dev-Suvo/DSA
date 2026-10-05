@@ -22,4 +22,4 @@ JsUser.greetingTwo = function () {
 }
 
 JsUser.greeting()
-console.log(JsUser.greetingTwo()); //log makes and extra `undefined`
+console.log(JsUser.greetingTwo());
