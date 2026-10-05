@@ -1,5 +1,10 @@
 
 
+
+JsUser.greeting = function () {
+    console.log(JsUser);
+}
+
 JsUser.greetingTwo = function () {
     console.log(`hello ${this.name}`);
 }
