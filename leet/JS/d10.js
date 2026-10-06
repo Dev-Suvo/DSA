@@ -23,4 +23,4 @@ JsUser.greetingTwo = function () {
 
 JsUser.greeting()
 console.log(JsUser.greetingTwo());
-//done
+
