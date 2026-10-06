@@ -5,9 +5,9 @@ const JsUser = {
     name: "Suvo",
     "full_name": "Suvo Dey",
     [mySym]: "mykey1",
-    age: 18,
+    age: 20,
     location: "wb",
-    email: "hitesh@google.com",
+    email: "suvo@google.com",
     isLoggedIn: false,
     lastLoginDays: ["Monday", "Saturday"]
 }
