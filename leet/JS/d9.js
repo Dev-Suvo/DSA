@@ -1,4 +1,4 @@
-userobj = {
+usrobj = {
     name: "suvo",
     age: 23,
     salary: 25000,
@@ -9,4 +9,4 @@ function APIDATA(api) {
     return `Name is ${api.name} and age is ${api.age} & employee id is ${api.emp_id}, Position is ${api.pos} and salary is ${api.salary}`
 }
 
-console.log(APIDATA(userobj));
+console.log(APIDATA(usrobj));
