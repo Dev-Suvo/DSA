@@ -5,3 +5,6 @@ usrobj = {
     emp_id: "A54",
     pos : "Junior Backend DEV"
 }
+
+
+console.log(APIDATA(usrobj));
