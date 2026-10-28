@@ -1,0 +1,20 @@
+class Solution(object):
+    def topKFrequent(self, nums, k):
+        map = {}
+
+        frq = [[] for _ in range(len(nums)+1)]
+
+        for n in nums:
+            map[n] = map.get(n,0)+1
+
+        for key, val in map.items():
+            frq[val].append(key)
+
+        res = []
+
+        for i in range(len(frq)-1,-1,-1):
+            for n in frq[i]:
+                res.append(n)
+
+                if len(res) == k:
+                    return res
